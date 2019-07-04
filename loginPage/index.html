@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<header >
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css\style.css"></link>
+    <p id="header"><strong>Login</strong></p> 
+</header>
+<body>
+    <div class="image">
+    <img src="images\login.svg" alt="login face">
+    </div>
+    <div class="maincontainer">
+    <ul>
+        <li>
+            <p>Username</p>
+            <input type="text" id="username" value="enter your username">
+        </li>
+        <li>
+        <p>Password</p>
+            <input type="text" id="password" value="enter valid password">
+        </li>
+           
+    </ul>
+    </div>
+    <div class="footer">
+            <span><button id="loginButton" value="login" onclick="colorchange()" onclick="validatePassword(document.getElementById("password").innerhtml)">
+            Login</button></span>     
+            <span><button id="cancelButton" value="cancel" onclick="cancel()">cancel</button></span>
+            <a href=# id="forgotpassword"colorchange=black>forgot password</a>
+            </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

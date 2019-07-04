@@ -1,0 +1,102 @@
+body{
+    
+    margin:0;
+    padding:20;
+    font-size: 30px;
+    background-color: palegoldenrod;
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family: monospace;
+    display: block;
+    
+}
+
+.image{
+    align-content: center;
+}
+header{
+    
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+.maincontainer{
+    align-content: center;
+}
+input{
+    width: 30%;
+}
+
+ul{
+    list-style: none;
+}
+#username,#password{
+    border-bottom-color: purple;
+    border-left-color: none;
+    border-right-color: none;
+    border-top-color: none;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    background-color: palegoldenrod;
+    border-block-end-color: black
+    
+
+}
+
+.footer{
+    display: inline-flexbox;
+    justify-content: space-evenly;
+    padding: 25px 50px;
+    margin-right:0px;
+    margin-left: 0px;
+
+}
+
+img{
+    width: auto;
+    height: 200px;
+}
+#cancelButton{
+    background-color: red;
+    border-radius: 20px;
+    color:white;
+    height: 40px;
+    width: 100px;
+}
+#loginButton{
+    background-color: greenyellow;
+    border-radius: 20px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border: none;
+}
+#loginButton :hover{
+    background-color: green
+}
+
+#forgotpassword{
+    text-decoration:none;
+    font-size: 20px;
+}
+
+footer,a:link{
+    color:black;
+}
+
+footer,a:hover{
+    color:green;
+}
+
+footer,a:active{
+    color:blue;
+}
+
+#header{
+    font-size: 50px;
+    margin:5px;
+    padding:0;
+}
