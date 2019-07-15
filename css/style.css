@@ -3,20 +3,23 @@ body{
     margin:0;
     padding:20;
     font-size: 30px;
-    background-color: palegoldenrod;
+    background-color:lightgrey;
     background-repeat: no-repeat;
     background-position: right top;
-    font-family: monospace;
+    font-family: 'Russo One', sans-serif;
     display: block;
     
 }
 
-.image{
-    align-content: center;
+
+#paris{
+    width:100%;
+    height: auto;
+    opacity: 0.5;
 }
-header{
-    
+h1 {
     text-align: center;
+    color:rebeccapurple;
 }
 
 p{
@@ -40,10 +43,25 @@ ul{
     border-top: none;
     border-right: none;
     border-left:none;
-    background-color: palegoldenrod;
-    border-block-end-color: black
-    
+    background-color:whitesmoke;
+    border-block-end-color: black;
+    width:100%;
 
+}
+body{
+    position: relative;
+}
+.maincontainer{
+    position: absolute;
+    left:30px;
+    top:200px;
+    font-size: 30px;
+}
+.footer{
+    position: absolute;
+    left:30px;
+    bottom:500px;
+    font-size: 30px;
 }
 
 .footer{
@@ -58,6 +76,7 @@ ul{
 img{
     width: auto;
     height: 200px;
+  
 }
 #cancelButton{
     background-color: red;
@@ -69,13 +88,14 @@ img{
 #loginButton{
     background-color: greenyellow;
     border-radius: 20px;
-    color: white;
+    color: black;
     height: 50px;
     width: 300px;
     border: none;
 }
-#loginButton :hover{
-    background-color: green
+
+#loginButton:hover{
+    background-color: green;
 }
 
 #forgotpassword{
@@ -88,7 +108,7 @@ footer,a:link{
 }
 
 footer,a:hover{
-    color:green;
+    color:red;
 }
 
 footer,a:active{
@@ -99,4 +119,10 @@ footer,a:active{
     font-size: 50px;
     margin:5px;
     padding:0;
+}
+
+.footer{
+    position: relative;
+    left:0px;
+    display:inline-block;
 }
