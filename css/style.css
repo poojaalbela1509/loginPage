@@ -10,7 +10,17 @@ body{
     display: block;
     
 }
+#nextForm{
+    text-decoration: none;
+    border: 2px purple solid;
+    padding:3px;
+    color:rgb(87, 54, 105);
+    background-color:lightcoral;
+}
 
+#nextForm:hover{
+  background-color:lightyellow;  
+}
 
 #paris{
     width:100%;
@@ -107,7 +117,7 @@ footer,a:link{
     color:black;
 }
 
-footer,a:hover{
+#forgotpassword:hover{
     color:red;
 }
 
